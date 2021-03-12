@@ -91,7 +91,7 @@ pictures = [
 slides = len(pictures) - 1
 status = True
 while status:
-    x = input('Type letter ')
+    x = input('Type letter ').lower()
     if x in used:
         print(f'Letter "{x}" is already typed \n')
     else:
