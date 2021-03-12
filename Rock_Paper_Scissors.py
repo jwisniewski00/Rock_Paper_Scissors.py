@@ -3,7 +3,7 @@ print('This is a rock paper scissors game')
 c_win = 0
 u_win = 0
 while True:
-    x = input('Type "r" for Rock or "p" for Paper or "s" for Scissors. If you want to end the game type random key: ')
+    x = input('Type "r" for Rock or "p" for Paper or "s" for Scissors. If you want to end the game type random key: ').lower()
     if x not in ["r", "p", "s"]:
         break
     computer = randint(1, 3)
