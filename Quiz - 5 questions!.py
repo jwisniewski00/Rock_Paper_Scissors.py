@@ -25,13 +25,13 @@ for number_que in range(5):
         j += 1
 
     if j == 2:
-        user_ans = input('\n Type "a" or "b" : ')
+        user_ans = input('\n Type "a" or "b" : ').lower()
         while user_ans not in l_pref[:2]:
-            user_ans = input('\n Type "a" or "b" : ')
+            user_ans = input('\n Type "a" or "b" : ').lower()
     if j == 4:
-        user_ans = input('\n Type "a" or "b" or "c" or "d" : ')
+        user_ans = input('\n Type "a" or "b" or "c" or "d" : ').lower()
         while user_ans not in l_pref:
-            user_ans = input('\n Type "a" or "b" or "c" or "d" : ')
+            user_ans = input('\n Type "a" or "b" or "c" or "d" : ').lower()
     index_user = l_pref.index(user_ans)
 
     if ans[index_user] == c_ans:
