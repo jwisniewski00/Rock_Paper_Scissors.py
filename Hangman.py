@@ -11,7 +11,7 @@ odp = ['_ '] * len(fruit_list)
 
 used = []
 
-print(fruit)
+print('Guess fruit')
 print("".join(odp))
 
 pictures = [
